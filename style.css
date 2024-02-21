@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* body--------------------------------------- */
+
+body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    user-select:none;
+    background:#f7e7ce;
+}
+
+/* container--------------------------------------- */
+
+.container{
+    width:800px;
+    display:flex;
+    border:1px solid #222;
+    border-radius:10px;
+    padding:10px;
+    background:#d90429;
+}
+
+/* tag-container----------------------------------------- */
+
+.tag-container{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+/* tag-------------------------------------- */
+
+.tag{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#fadf53;
+    border-radius:60px;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.tag-span{
+    font-size:18px;
+    font-weight:700;
+    padding-left:10px;;;;;;;
+}
+
+#close{
+    margin-left:20px;
+    font-size:20px;
+    cursor:pointer;
+    
+}
+
+.input{
+    border:none;
+    outline:none;
+    padding:10px;
+    font-size:17px;
+    border-bottom:1px solid #f7e7ce;
+    background:transparent;
+    color:white;
+    flex:1;
+
+}
+
+.input::placeholder{
+    color:rgba(248,248,248,0.5) ;
+}
+
+/* .icons-div--------------------------------------------- */
+
+.icons-div{
+    width:80px;
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    color:#f7e7ce;
+}
+
+#remove-all{
+    font-size:20px;
+    cursor:pointer;
+
+}
+
+#copy{
+    font-size:20px;
+    cursor:pointer;
+}
